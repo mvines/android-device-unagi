@@ -205,6 +205,7 @@ COMMON_BINS="
 	qmuxd
 	rild
 	radish
+	rmt_storage
 	"
 
 copy_files "$COMMON_BINS" "system/bin" ""
