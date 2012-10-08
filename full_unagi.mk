@@ -1,6 +1,6 @@
 $(call inherit-product, device/qcom/common/common.mk)
 PRODUCT_COPY_FILES := \
-  device/qcom/unagi/syna-touchscreen.idc:system/usr/idc/syna-touchscreen.idc \
+  device/qcom/unagi/touchscreen.idc:system/usr/idc/atmel-touchscreen.idc \
   device/qcom/msm7627a/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 $(call inherit-product-if-exists, vendor/qcom/unagi/unagi-vendor-blobs.mk)
