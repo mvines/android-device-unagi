@@ -31,7 +31,7 @@ else
 fi
 
 case "$DEVICE_BUILD_ID" in
-IMM76D*)
+IMM76D*|OPENMASTER)
   FIRMWARE=ICS
   echo Found ICS firmware with build ID $DEVICE_BUILD_ID >&2
   ;;
