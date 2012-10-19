@@ -10,6 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
   rild.libpath=/system/lib/libril-qc-1.so \
   rild.libargs=-d/dev/smd0 \
+  ro.moz.cam.0.sensor_offset=270 \
   ro.use_data_netmgrd=true \
   ro.moz.ril.simstate_extra_field=true \
   ro.moz.ril.emergency_by_default=true
